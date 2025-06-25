@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Resep</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white min-h-screen flex flex-col">
+  <!-- Gambar dan back -->
+  <div class="relative">
+    <img src="asset/nasi-goreng.jpg" class="w-full h-64 object-cover">
+    <button class="absolute top-2 left-2 bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">⬅ back</button>
+    <div class="absolute inset-0 flex items-center justify-center">
+      <button class="bg-yellow-400 rounded-full w-12 h-12 flex items-center justify-center text-xl">▶️</button>
+    </div>
+  </div>
+
+  <!-- Isi atau deskripsi -->
+  <div class="bg-green-800 text-white px-4 pt-6 pb-8 -mt-4 rounded-t-3xl">
+    <h1 class="text-xl font-bold mb-1">Nasi Goreng ala Solaria</h1>
+    <p class="text-sm">Resep oleh</p>
+    <div class="flex items-center gap-2 mb-4">
+      <img src="asset/chef1.jpg" class="w-8 h-8 rounded-full object-cover">
+      <div>
+        <p class="text-sm font-semibold leading-tight">Danilla</p>
+        <p class="text-xs text-gray-200 leading-tight">Chef</p>
+      </div>
+    </div>
+
+    <div class="mb-4">
+      <h2 class="text-md font-bold mb-1">Deskripsi</h2>
+      <p class="text-sm text-gray-100">
+        Kaya cita rasa yang lezat dengan porsi jumbo yang pasti mengenyangkan perut. Tidak heran, deh, banyak yang penasaran racikan rahasia dibalik nikmatnya nasi goreng ini.
+      </p>
+    </div>
+
+    <div class="flex justify-between items-center text-center mb-4">
+      <div class="bg-green-100 text-black px-4 py-2 rounded-xl">
+        <p class="text-xs">Waktu masak</p>
+        <p class="font-bold">20 menit</p>
+      </div>
+      <div class="bg-green-100 text-black px-4 py-2 rounded-xl">
+        <p class="text-xs">Bahan Utama</p>
+        <p class="font-bold">Nasi Putih</p>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="text-md font-bold mb-2">Bahan Makanan</h2>
+      <ul class="text-sm space-y-1">
+        <li class="flex justify-between border-b border-white/30 pb-1">
+          <span>Nasi Putih</span>
+          <span>400 gr</span>
+        </li>
+        <li class="flex justify-between border-b border-white/30 pb-1">
+          <span>Bawang Putih</span>
+          <span>7 siung</span>
+        </li>
+        <li class="flex justify-between border-b border-white/30 pb-1">
+          <span>Bawang Merah</span>
+          <span>5 siung</span>
+        </li>
+        <li class="flex justify-between">
+          <span>Daun Bawang</span>
+          <span>5 batang</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
